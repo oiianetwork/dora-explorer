@@ -5,7 +5,7 @@ logging:
 # Chain network configuration
 chain:
   name: "oiia-network"
-  configPath: "/network-config/metadata/config.yaml"
+  configPath: "/network-config/config.yaml"
   displayName: "Oiia Network"
 
 # HTTP Server configuration
