@@ -1,7 +1,6 @@
 
 docker run \
-  -d \
-  --restart unless-stopped \
+  --rm \
   --name=dora-explorer \
   -v $(pwd):/config \
   -v $(pwd)/network-config:/network-config \
