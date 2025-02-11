@@ -41,7 +41,7 @@ beaconapi:
   # beacon node rpc endpoints
   endpoints:
     - name: "lighthouse"
-      url: "http://149.28.146.88:5052"
+      url: "https://beacon-rpc.oiia.network"
       priority: 4
       archive: true
   
@@ -53,7 +53,7 @@ executionapi:
   # execution node rpc endpoints
   endpoints:
     - name: "geth"
-      url: "http://149.28.146.88:8545"
+      url: "https://rpc.oiia.network"
   
   logBatchSize: 1000
   depositDeployBlock: 0 # el block number from where to crawl the deposit contract (should be <=, but close to the deposit contract deployment block)
